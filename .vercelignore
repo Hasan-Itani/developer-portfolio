@@ -1,0 +1,9 @@
+# Deploy application source and public assets; keep local checks and instructions local.
+.git
+.next
+node_modules
+AGENTS.md
+CODEX_BUILD_PROMPT.md
+VALIDATION.md
+ASSET_SOURCES.md
+*.tsbuildinfo

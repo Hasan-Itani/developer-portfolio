@@ -86,11 +86,11 @@ The following details are from the user's previously supplied CV and project dis
 - Label prominently **In progress**. Verify implemented features against repository before treating them as completed; if features are incomplete, describe as “in development” or “planned” accurately.
 
 ### Featured project 2
-**ZERO: LAST DIRECTIVE — Android Action Game — Closed testing**
+**ZERO: LAST DIRECTIVE — Android Action Game — Pre-registration**
 - Built with Godot 4 / GDScript.
 - 2D action game featuring 40 missions across five chapters, enemy AI, four difficulty levels, upgrades, and save systems.
 - Worked on gameplay regression testing, frame-rate and CPU-time profiling, debugging, and fixes from testers' feedback.
-- In closed testing through Google Play Console as described in CV; public release planned, not established as completed.
+- Currently in pre-registration, confirmed by the user after the original CV information. Public release is not established as completed.
 - `itanigames.com` is associated with the game / its legal pages. Do not claim that a public download, playable web demo, or public store listing is available unless confirmed.
 
 ### Other work to validate and potentially include
@@ -113,7 +113,7 @@ The following details are from the user's previously supplied CV and project dis
 - Use semantic HTML, responsive Tailwind utilities, CSS custom properties/design tokens, and stable component APIs. Prefer small focused components over one giant `page.tsx`.
 - Use Next `Image` for real images and `next/font` for self-hosted fonts. Use local image assets under `public` with descriptive names, proper attribution/rights and alt text. Until the user provides screenshots, create truthful CSS/SVG/typographic *illustrations*, clearly not presented as product screenshots.
 - Integrate metadata, canonical URL (`https://dev.itanigames.com` after deployment), sitemap, robots directives, Open Graph image, useful page titles/descriptions, and appropriate `Person` JSON-LD without oversharing private info. Avoid indexing preview/staging deployments where applicable.
-- Prefer a direct `mailto:` contact CTA; avoid building an unnecessary API/database or collecting messages unless requested. Never expose credentials/secrets.
+- Email CTAs must open Gmail compose in a new tab with the portfolio email prefilled, per the user's preference. Do not use `mailto:` links. Avoid building an unnecessary API/database or collecting messages unless requested. Never expose credentials/secrets.
 - Do not introduce unnecessary UI libraries, giant component kits, WebGL/Three.js, trackers, or dependencies without a clear need. Prefer thoughtful custom visual components.
 - Preserve compatibility with React Compiler; avoid impure rendering and unnecessary escape hatches.
 
